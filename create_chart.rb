@@ -58,7 +58,7 @@ html_content = <<-HTML
 HTML
 
 # Schreibe den Inhalt in eine HTML-Datei
-File.open('wei_m_liniendiagramm.html', 'w') do |file|
+File.open('index.html', 'w') do |file|
   file.write(html_content)
 end
 
